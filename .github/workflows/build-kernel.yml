@@ -7,7 +7,7 @@ jobs:
   build-kernel:
     runs-on: ubuntu-20.04
     steps:
-      - uses: Ste74/build-pkgs@master
+      - uses: Ste74/build-pkgs@main
         with:
           gitlab-pw: ${{ secrets.gitlab_server_user }}
           build-mirror: ${{ secrets.BUILD_MIRROR }}
