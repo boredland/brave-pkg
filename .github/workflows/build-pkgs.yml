@@ -1,4 +1,4 @@
-name: Build Kernel
+name: Build Pkgs
 
 on:
   workflow_dispatch:
