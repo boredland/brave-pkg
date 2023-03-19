@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-kernel:
+  build-pkg:
     runs-on: ubuntu-20.04
     steps:
       - uses: Ste74/build-pkgs@main
